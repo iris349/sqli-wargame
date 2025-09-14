@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# SQLite DB
+*.db
+!database.db
+
+# 환경설정
+.env
+
+# 기타
+*.log

@@ -1,0 +1,100 @@
+/* 귀여운 볼드체 텍스트용 클래스 */
+.cute-text {
+    font-family: 'Baloo 2', 'Nunito', 'Arial Rounded MT Bold', 'Arial', sans-serif;
+    font-weight: 800;
+}
+body {
+    background: #181818;
+    color: #e0e0e0;
+    font-family: 'Fira Mono', 'Consolas', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: #232323;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #0008;
+    padding: 32px 24px;
+}
+
+h2 {
+    color: #ff5252;
+    text-align: center;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+    font-family: 'Baloo 2', 'Nunito', 'Arial Rounded MT Bold', 'Arial', sans-serif;
+    font-weight: 800;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    color: #ffb86c;
+    font-size: 1rem;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background: #181818;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #e0e0e0;
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff5252;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #ff1744;
+}
+
+.download-btn-box {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.download-btn {
+    flex: 1;
+    display: inline-block;
+    padding: 12px 0;
+    background: #ffb86c;
+    color: #fff;
+    border: 2px solid #ffb86c;
+    border-radius: 4px;
+    font-size: 1.05rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+.download-btn:hover {
+    background: #232323;
+    color: #ffb86c;
+}
+
+p[style*="color:red"] {
+    background: #2d0909;
+    color: #ff5252 !important;
+    padding: 8px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 12px;
+}
